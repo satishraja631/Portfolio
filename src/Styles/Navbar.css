@@ -1,0 +1,36 @@
+.navbar{
+    width:100vw;
+    height:80px;
+    border-bottom: 1px solid white;
+    display:flex;
+    
+    justify-content: flex-end;
+    
+   
+    
+}
+
+.title{
+    
+    margin-left: 100px;
+    margin-top:40px;
+}
+
+.navbar ul{
+    display:flex;
+
+    margin-right: 50px;
+}
+
+.navbar li{
+    margin-left:100px;
+    list-style: none;
+    color:white;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}

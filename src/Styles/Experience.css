@@ -1,0 +1,74 @@
+.experience-section{
+  margin-left:10%;
+}
+
+.experience-header{
+  display:flex;
+  flex-direction: column;
+}
+
+.experience-header h2{
+  font-weight: lighter;
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.experience-item{
+  display: flex;
+  flex-direction: row;
+  width:40%;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.exp-name{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color:white;
+}
+
+.exp-value{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: white;
+  }
+
+.client-section h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color:white;
+  font-weight: lighter;
+}
+
+.client-section li{
+  color:white;
+  list-style-type:disc;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2;
+}
+
+.innovative-button {
+  display: block;
+  width: 20%;
+  margin-top:0%;
+  margin-bottom: 20%;
+  margin-right: 5%;
+  margin-left: auto;
+  padding: 10px 24px;
+  background-color: #4CAF50;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 25px;
+
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Courier New', Courier, monospace;
+
+
+
+}

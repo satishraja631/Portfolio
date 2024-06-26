@@ -1,0 +1,61 @@
+/* ProjectCard.css */
+
+.project-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* Ensure the image doesn't overflow */
+    margin-bottom: 20px;
+    width: 30%;
+    margin-right:10%;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-details {
+    padding: 0px;
+}
+
+.project-card h3 {
+    margin-bottom: 0px;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.project-buttons {
+    display: flex;
+    
+
+}
+.button1{
+    flex:0.5;
+    width:50%;
+}
+.button2{
+    flex:0.5;
+}
+
+.button1,.button2 {
+    
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

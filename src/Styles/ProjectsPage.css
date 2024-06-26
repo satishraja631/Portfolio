@@ -1,0 +1,11 @@
+.projects-list{
+    display:flex;
+    margin:5%;
+    
+}
+
+.project-page h2{
+    margin-left:5%;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}

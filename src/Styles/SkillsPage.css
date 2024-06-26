@@ -1,0 +1,53 @@
+.skills-page{
+    display: flex;
+    margin-top:1%;
+    margin-left:2%;
+   
+}
+
+.frontend-skills{
+    width:25%;
+    margin-right:10%;
+}
+.backend-skills{
+    width:25%;
+    margin-right:10%;
+}
+.tools{
+    width: 25%;
+    margin-right: 10%;
+}
+
+
+.skills-page h1{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 10%;
+    
+}
+
+.innovative-button {
+    display: block;
+    width: 20%;
+    margin-bottom:5%;
+    margin-right:5%;
+    margin-left:auto;
+    padding: 10px 24px;
+    background-color: #4CAF50;
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+   
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+
+
+    
+}
