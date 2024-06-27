@@ -1,4 +1,4 @@
-/* SkillsCard.css */
+
 
 .skills-card {
     
@@ -27,10 +27,41 @@
 .star {
     font-size: 20px;
     color: #FFD700;
-    /* Gold color for stars */
+    
 }
 
 .star.filled {
     color: #FFD700;
     
+}
+
+@media screen and (max-width:576px){
+    .skills-card {
+    
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+            margin-bottom: 10%;
+    
+        }
+
+    .skill-name {
+            flex: 1;
+            font-weight: lighter;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    
+        .rating-stars {
+            display: flex;
+            align-items: center;
+            
+    
+        }
+        .star {
+            font-size: 15px;
+            color: #FFD700;
+    
+        }
 }

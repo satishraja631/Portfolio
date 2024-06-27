@@ -10,15 +10,9 @@
     
 }
 
-.title{
-    
-    margin-left: 100px;
-    margin-top:40px;
-}
 
 .navbar ul{
     display:flex;
-
     margin-right: 50px;
 }
 
@@ -33,4 +27,61 @@
     text-decoration: none;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+}
+
+
+@media screen and (max-width:576px){
+    .navbar {
+            position: sticky;
+            top: 0;
+            background-color: #333;
+            z-index: 1000;
+        }
+    .navbar ul {
+            display: grid;
+
+            grid-template-columns: repeat(3,1fr);
+            margin-right:10%;
+        }
+
+        .navbar li {
+            margin-left: 0px;
+            list-style: none;
+            color: white;
+    
+        }
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .navbar{
+        position:sticky;
+        top: 0;
+            background-color: #333;
+            z-index: 1000;
+    }
+    .navbar ul {
+            display: flex;
+    
+            
+            margin-right: 1%;
+        }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        z-index: 1000;
+    }
+
+    .navbar ul {
+        display: flex;
+
+
+        margin-right: 1%;
+    }
+
 }

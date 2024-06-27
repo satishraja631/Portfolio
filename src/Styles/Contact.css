@@ -14,7 +14,7 @@
 .contact-detail{
         display: flex;
         flex-direction: row;
-        width: 40%;
+        width: 50%;
         align-items: center;
         justify-content: space-between;
 }
@@ -24,3 +24,42 @@
     font-weight: lighter;
     color:white;
 }
+
+@media screen and (max-width:576px){
+
+    .Contact {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+    
+        .contact-detail {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+}
+
+@media screen and (min-width:577px ) and (max-width:1024px){
+
+    .Contact {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5%;
+            margin-top: 10%;
+        }
+    
+        .contact-detail {
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+}
+

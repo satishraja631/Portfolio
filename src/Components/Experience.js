@@ -40,7 +40,7 @@ const ExperienceSection = () => {
         </ul>
       </div>
       <div className='go-to'>
-        <Link to="/projects" className="innovative-button">
+        <Link to="/projects" className="experience-button">
               Explore Projects -{'>'}
           </Link>
       </div>

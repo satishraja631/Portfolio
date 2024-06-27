@@ -1,5 +1,6 @@
 .projects-list{
     display:flex;
+    flex-direction:column;
     margin:5%;
     
 }
@@ -8,4 +9,110 @@
     margin-left:5%;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.project1{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.information{
+    width: 50%;
+}
+.information h3{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    
+}
+
+.project-description{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height:2;
+
+}
+
+
+.card{
+    width:30%;
+    height:70%;
+    margin-right:10%;
+
+}
+
+
+@media screen and (max-width:576px){
+    .projects-list {
+            display: flex;
+            flex-direction:column;
+            margin: 5%;
+    
+        }
+
+        .project1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+                }
+        .information {
+            width: 80%;
+        }
+        .card {
+            width: 80%;
+            height: 70%;
+            margin-right: 5%;
+        }
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px){
+    .projects-list {
+            display: flex;
+            flex-direction: column;
+            margin: 5%;
+    
+        }
+                .project1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: left;
+                }
+        
+                .information {
+                    width: 80%;
+                }
+        
+                .card {
+                    width: 80%;
+                    height: 70%;
+                    margin-right: 5%;
+                }
+
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .projects-list {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+
+    }
+
+        .project1 {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+    
+        .information {
+            width: 80%;
+        }
+    
+        .card {
+            width: 80%;
+            height: 70%;
+            margin-right: 5%;
+        }
+
 }

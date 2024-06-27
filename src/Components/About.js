@@ -5,6 +5,7 @@ import Github from '../Assets/github.svg'
 import Gmail from '../Assets/envelope-solid.svg'
 import Contact from '../Assets/address-book-solid.svg'
 import {Link} from 'react-router-dom'
+import '../Styles/About.css'
 
 function About() {
     const Icons=[Linkedin,Github,Gmail,Contact]

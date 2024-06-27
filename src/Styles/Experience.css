@@ -47,11 +47,11 @@
   line-height: 2;
 }
 
-.innovative-button {
+.experience-button {
   display: block;
   width: 20%;
   margin-top:0%;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   margin-right: 5%;
   margin-left: auto;
   padding: 10px 24px;
@@ -72,3 +72,137 @@
 
 
 }
+
+@media screen and (max-width:576px){
+  .experience-item {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+    .client-section li {
+      color: white;
+      list-style-type: disc;
+      font-family: 'Courier New', Courier, monospace;
+      line-height: 2;
+      margin-right:1%;
+      
+    }
+ .experience-button {
+  display: block;
+  min-width: 50%;
+  margin-bottom: 5%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 10px 24px;
+  background-color: #4CAF50;
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 25px;
+
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+}
+
+@media screen and (min-width:577px) and (max-width:1024px){
+  .experience-item {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      align-items: center;
+      justify-content: space-between;
+  
+    }
+        .client-section li {
+          color: white;
+          list-style-type: disc;
+          font-family: 'Courier New', Courier, monospace;
+          line-height: 2;
+          font-size: x-large;
+        }
+  
+    .experience-button {
+      display: block;
+      min-width: 50%;
+      margin-bottom: 5%;
+      margin-right: 10%;
+      margin-left: 10%;
+      padding: 10px 24px;
+      background-color: #4CAF50;
+  
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 25px;
+  
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: 'Courier New', Courier, monospace;
+  
+  
+  
+    }
+  
+
+}
+
+/* @media screen and (min-width:769px) and (max-width:1024px) {
+  .experience-item {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .client-section li {
+    color: white;
+    list-style-type: disc;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+    font-size: x-large;
+  }
+
+  .experience-button {
+    display: block;
+    min-width: 50%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px 24px;
+    background-color: #4CAF50;
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+
+
+
+  }
+
+
+} */
